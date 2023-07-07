@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+
+  }
+body{
+  align-items: center;
+  border-radius: 50%; 
+  background: linear-gradient(#3d0cf0, #03f78d);
+}
+.login {
+    margin-bottom: 10rem;
+    text-align: center;
+    padding-right: 0em;
+    box-sizing: border-box;
+    display: inline-block;
+    
+  }
+  .m1{
+    border-style: solid;
+    background-color:rgba(203, 235, 240, 0.217);
+    margin-top: 2rem;
+    border-radius: 15px;
+    border-color: #1e1e1d6f;
+    border-width: 5px;
+    width:500px;
+  }
+
+.welcome h1 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    margin: 0% 0%;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgb(242, 245, 242);
+  }
+.welcome h1:hover {
+    transform: scale(1.05);
+  }
+.signin:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+      -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+      transform: scale(1.1);
+  }
+.signin{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+    width: 120px;
+    padding: .2rem;
+    color: aliceblue;
+  background-color:rgba(30, 79, 105, 0.527);
+  border-radius: 5px;
+}
+.inputs {
+    margin: 2.2em 0em;
+    margin-bottom: 0em;
+  }
+.inputbox {
+    width: 300px;
+    margin: 0.8em 0em;
+    padding: 8px 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    color: #000000;
+    text-overflow: ellipsis;
+  }
+  .inputs span{
+    font-size: large;
+    text-shadow: 2px 2px 5px white;
+  }
+  .forgot{
+    padding-left: 15em;
+    width: 50%;
+    font-family: "Poppins";
+    font-weight: 650;
+    font-size: small;
+  }
+  .back{
+    padding-right: 18em;
+    font-weight: 650;
+    font-size: small;
+    margin-top: -0.5%;
+    font-family:inherit;
+  }
+  .back:hover{
+    transform: scale(1.1);
+  }
+  @media screen and (max-width: 900px){
+    body{
+      background-size: 140PX;
+    }
+    .login {
+        margin-top: 1%;
+        margin: down 1px;
+        padding: 2em 16em;
+      }
+      .welcome h1{
+        font-weight: 400;
+        margin: 0% 0%;
+        font-size: 2em;
+      }
+    }
+  @media screen and (max-width: 600px) {
+    body{
+    background-size: 110PX;
+  }
+    .login {
+      margin-top: 1%;
+      padding: 3em 9em;
+    }
+    .welcome h1{
+      font-weight: 300;
+      margin: 0% 0%;
+      font-size: 2em;
+    }
+  }

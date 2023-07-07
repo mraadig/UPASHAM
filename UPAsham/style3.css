@@ -1,0 +1,359 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+
+  }
+body { 
+		background-size: cover;
+		background-attachment: fixed;
+	  	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #111010;
+	background-color: #0b0a0a;
+   /* background: linear-gradient(#f35c32e2,#f67518e2,#f6e718e2,
+    #1af6bbd3); */
+  }
+
+.container {
+	max-width:none;
+	margin: 0 auto;
+	padding: 0 20px;
+    
+}
+.container li{
+	margin-left: 4rem;
+	align-content: flex-end;
+}
+.logo {
+    align-items: start;
+    display: flex;
+    margin-right: 8em;
+   }
+   .logo img {
+       width: 150px;
+       border-radius: 20px;
+       }
+
+header {
+ background-image:url(readbook.png);
+ width: 100%;
+ background-size:auto;
+ backdrop-filter: blur(5px);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+ min-height: 100vh;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+}
+header h1{
+	margin-top: 5rem;
+	font-family: "Lucida Sans";
+	font-weight: 99px;
+	font-size: 2.2rem;
+	line-height: 10.563rem;
+	text-align: center;
+	color: #161a18;
+	text-shadow: 1px 2px 2px rgb(179, 171, 171);
+}
+header p{
+    color:#0f0e0e;
+background-color: rgba(185, 203, 197, 0.5);
+border:rgb(18, 10, 0);
+border-width:5px; 
+border-style:solid;
+font-weight: 200;
+font-size: 22px;
+margin-left: 20rem;
+margin-right:20rem;
+font-family:cursive;
+justify-content: center;
+
+}
+
+nav {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	padding: 20px 0;
+	background-color: #000000b7;
+    backdrop-filter: blur(5px);
+	box-shadow: 0 2px 4px rgba(242, 239, 239, 0.1);
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li a {
+    margin-top: 2em;
+	margin-bottom: 2em;
+	display: block;
+	padding: 10px;
+	color: #f1eeee;
+	text-decoration: none;
+	border-radius: 3px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	background-color: #f7f1f1;
+	color: #070707;
+}
+
+/* form {
+	display: flex;
+	align-items: center;
+}
+
+form input[type="text"] {
+	width: 250px;
+	height: 40px;
+	padding: 5px;
+	border: none;
+	border-radius: 3px 0 0 3px;
+}
+
+form button[type="submit"] {
+	height: 40px;
+	padding: 11px;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+	background-color: #666;
+} */
+/* .slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    transition: transform 0.5s ease;
+} */
+
+/* .item {
+    flex: 1 0 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 30%;
+
+} */
+
+/* .prev-button,
+.next-button {
+	color: #f6d58e;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;} */
+section {
+    display: block;
+}
+ h1 {
+    color: white;
+    font-size: 2.75rem;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+ h2 {
+    color: #10f3a7;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-decoration: dotted;
+}
+
+.center, .collection, .videos {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.playlist {
+    background-color: #2b2c28;
+    padding: 0.75em;
+    border-radius: 1em;
+    margin: 1rem;
+    display: inline-block;
+}
+.playlist a{
+		display:flow-root;
+		width: 90%; 
+		text-decoration:solid;
+		color: white;
+		background-color: black;
+		border: 2px solid black;
+		padding: 0.5em;
+		border-radius: 1em;
+		text-align: center;
+		align-items: center;
+		margin-top: 1rem;
+	  
+}
+.playlist a :hover{
+	background-color: rgba(120, 113, 113, 0.947);
+}
+.inspiration .inspiration-card {
+  background-image: url(reading1.png);
+    position: relative;
+    max-width: 300px;
+    height: 225px;
+    background-color: #f7fafafa;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(6, 6, 6, 0.5);
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+}
+#quotes p{
+	font-family:cursive;
+	justify-content: center;
+    font-size: 22px;
+}
+hr {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+}
+.v {
+    display: inline-block;
+    border-radius: 1rem;
+    border: 9px solid #2b2b2b;
+    margin: 1.0rem;
+}
+/* feature */
+/* feature */
+footer {
+	background-color: #1f1e1ed2;
+	color: #fff;
+	display: flex;
+  }
+  
+  footer h4 {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 3em;
+	margin-left: 30px;
+	font-size: 20px;
+  }
+  
+  footer p {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 3em;
+	font-size: 15px;
+  }
+  
+  footer hr {
+	border-color: #fff;
+  }
+  
+  footer ul li {
+	list-style: none;
+	margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+	text-decoration: underline;
+	text-align: end;
+  }
+  
+  footer .container {
+	max-width: 1100px;
+	margin: 0 auto;
+  }
+  
+  @media (min-width: 767px) {
+	footer .col-md-4 {
+	  width: 33.33%;
+	  float:left;
+	  display: flex;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	footer .col-md-4 {
+	  width: 100%;
+	  margin-bottom: 30px;
+	  display: flex;
+  
+	}
+  }
+  footer .logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	border-radius: 10px;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	margin-left: 2em;
+  
+  }
+  footer .col-md-4 img {
+	margin-top: 4rem;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items:flex-end;
+	width: 50px;
+	border-radius:10px;
+  }

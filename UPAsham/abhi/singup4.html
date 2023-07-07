@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <img src="upasham1.png" alt="logo" height="100px" width="150px">
+  <br>
+  <center>
+    <div class="register">
+        <div class="welcome">
+          <h1 class="titletext">Create an account</h1>
+        </div>
+        <br><br>
+        <div class="r1">
+          <br>
+          <span style="color: rgb(43, 44, 43);">Let's get started.</span>
+        <br>
+        <div class="inputs">
+          <br><span>Username<br /></span>
+          <input class="inputbox" placeholder="Enter your username" required/><br />
+          
+          <span>Email<br /></span>
+          <input class="inputbox" placeholder="Enter your email"  required /><br />
+          
+          <span>Password<br /></span>
+          <input type="password" class="inputbox" placeholder="••••••••"  id="password1" required><br>
+          <input type="checkbox" onclick="myFunction()">show password
+          <script>
+            function myFunction() {
+              var x = document.getElementById("password1");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+          </script>
+        </div>
+        <br>
+        <p class="back-1"><a class="tag1" href="#">&#8592; Back</a></p>
+        <br>
+        <div class="button">
+          <input type="button" class="signup" value="Sign-up" />
+        </div>
+        <br>
+        <div class="signupline">
+          <span>Already have an account?</span>
+          <a href="login4.html">sign-in</a>
+        </div>
+        <br>
+    </div>
+</div>
+</center>
+</body>
+</html>

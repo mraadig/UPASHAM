@@ -1,0 +1,70 @@
+.videos{
+  padding: 2rem 0;
+  background-color: #adb5bd;
+}
+
+.videos .flip-card {
+  padding: 1em 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 650px) {
+  .nav-links {
+    display: none;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  header {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .open {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .aasan1 {
+    flex-direction: column;
+    height: auto;
+  }
+  .aasan1-img, .atext{
+    width: 100%;
+  }
+  .bfit {
+    flex-direction: column;
+    height: auto;
+  }
+  .benefits img {
+    width: 100%;
+  }
+  .more{
+    width: 40%;
+  }
+  .btext{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .videos iframe{
+    width: 100%;
+  }
+  .more{
+    width: 90%;
+  }
+  .text{
+    top: 20%;
+  }
+}

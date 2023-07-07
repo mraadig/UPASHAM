@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #f4f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-item a {
+    color: #6f1717;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #500eeb;
+    text-decoration: underline;
+    transform: scale(1.2);
+  }
+  

@@ -1,0 +1,61 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border-color: black;
+    width: 100%;
+    padding: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1;
+  }
+  
+  textarea {
+    height: 150px;
+    background-color: rgb(249, 244, 244);
+    border-color: black;
+  }
+  
+  .button {
+    background-color: black;
+    color: #ffffff;
+    padding: 0.4rem;
+    width: 100%;
+    align-items: center;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+  
+  .button:hover {
+    background-color: #ffffff;
+    color: rgb(16, 16, 16);
+  }
+  
+  body {
+    background: linear-gradient(#7a00ff, #ff00c8);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+  }
+  
